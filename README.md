@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-This is another challenge of making one-site page about parfume. This is repsonsive site - differences are in desktop and mobile image.
+This is another challenge of making one-site page about parfume. This is repsonsive site - differences are in desktop and mobile image (750px and less).
 
-##See my solution
+## See my solution
 <img src="my-solution.jpg" alt="website Parfume product">
