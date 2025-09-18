@@ -155,6 +155,22 @@ p.parfume-info {
 
 /* DESKTOP OVERRIDES */
 @media screen and (min-width: 750px) {
+  .template {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 603px;
+    height: 628px;
+
+    background-image: url(./desktop-design2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+    opacity: 50%;
+  }
+
   .main-box {
     height: 100vh;
   }
