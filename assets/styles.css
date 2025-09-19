@@ -37,6 +37,7 @@ body {
 }
 
 .template {
+  display: none;
   position: absolute;
   top: 0;
   left: 50%;
@@ -49,7 +50,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   z-index: 1;
-  opacity: 50%;
+  opacity: 70%;
 }
 
 /* GENERAL BOX - LEFT side (image) */
@@ -173,12 +174,13 @@ p.parfume-info {
 
   .main-box {
     height: 100vh;
+    justify-content: flex-start;
   }
 
   .container {
-    max-width: 700px;
+    max-width: 600px;
     flex-direction: row;
-    margin-bottom: 5rem;
+    margin-top: 11rem;
   }
 
   #mobile-img {
@@ -188,27 +190,34 @@ p.parfume-info {
   #desktop-img {
     display: block;
     border-radius: 0.5rem 0 0 0.5rem;
-    height: 100%;
+    height: auto;
+    width: 300px;
   }
 
   .text-box-data {
-    padding: 3rem 2rem;
+    padding: 2rem 2rem;
   }
 
   .parfume-heading {
-    font-size: 2.5rem;
-    margin-bottom: 1.2rem;
+    font-size: 2rem;
+    margin: 1.2rem 0;
   }
 
-  .parfume-info {
-    font-size: 1rem;
+  p.parfume-info {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin: 1.3rem 0 1.3rem;
+  }
+
+  .parfume-price {
+    margin: 1.5rem 0 1.6rem;
   }
 
   .parfume-price span {
-    font-size: 2.5rem;
+    font-size: 1.95rem;
   }
 
   .btn {
-    padding: 1.25rem 2.25rem;
+    padding: 0.95rem 0;
   }
 }
